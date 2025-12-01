@@ -23,7 +23,7 @@ pub fn part1()
 
                 if direction == "L"
                 {
-                    position = (position + 100 - norm_distance) % 100;
+                    position = (position + (100 - norm_distance)) % 100;
                 }
                 else if direction == "R"
                 {
